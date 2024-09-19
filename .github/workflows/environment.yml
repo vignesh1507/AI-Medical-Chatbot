@@ -1,8 +1,27 @@
-name: base
-dependencies:
-  - python=3.10
-  - conda
-  - flake8
-  - pytest
-  - numpy>=1.20,<1.21
-  - pandas>=1.3,<1.4
+name: workflows
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up conda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          python-version: "3.10"
+          miniforge-version: latest
+          use-mamba: true
+          mamba-version: "*"
+      - name: Activate conda environment
+        run: |
+          conda env create -f environment.yml
+          conda activate base
+      - name: Install dependencies
+        run: |
+          conda install flake8 pytest numpy pandas
+      - name: Lint with flake8
+        run: |
+          flake8 .
+      - name: Test with pytest
+        run: |
+          pytest
