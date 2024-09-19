@@ -1,0 +1,8 @@
+name: base
+dependencies:
+  - python=3.10
+  - conda
+  - flake8
+  - pytest
+  - numpy>=1.20,<1.21
+  - pandas>=1.3,<1.4
