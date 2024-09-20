@@ -28,13 +28,13 @@ le = preprocessing.LabelEncoder()
 le.fit(y)
 y = le.transform(y)
 
-
+#splitted the data to train the model.
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.33, random_state=42)
 testx    = testing[cols]
 testy    = testing['prognosis']  
 testy    = le.transform(testy)
 
-
+#used DecisionTreeClassifier
 clf1  = DecisionTreeClassifier()
 clf = clf1.fit(x_train,y_train)
 # print(clf.score(x_train,y_train))
