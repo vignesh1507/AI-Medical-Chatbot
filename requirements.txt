@@ -1,0 +1,10 @@
+numpy
+pandas
+pyttsx3
+scikit-learn
+scipy
+re
+csv
+
+# Optional dependencies
+python>=3.6
