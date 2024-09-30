@@ -98,9 +98,6 @@ print("SVM score: ", model.score(x_test, y_test))
 3. The chatbot cross-validates the predictions to ensure accuracy.
 4. It also suggests precautions based on the identified disease and speaks the output using text-to-speech.
 
-### Dataset Information
-
-The `dataset (1).csv` contains rows representing symptoms related to diseases like Fungal infection, with symptoms like itching, skin rash, nodal skin eruptions, and dischromic patches.
 
 ### Precautionary Advice
 
