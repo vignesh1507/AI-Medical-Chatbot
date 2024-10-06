@@ -116,7 +116,7 @@ def getprecautionDict():
 
 # Function to collect user info and greet
 def getInfo():
-    print("-----------------------------------HealthCare ChatBot-----------------------------------")
+    print("-----------------------------------AI Medical ChatBot-----------------------------------")
     print("\nYour Name? \t\t\t\t", end="-> ")
     name = input("")
     print("Hello, ", name)
