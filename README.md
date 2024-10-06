@@ -82,11 +82,14 @@ print("SVM score: ", model.score(x_test, y_test))
 ### How to Run
 
 1. Clone the repository.
-2. Ensure all required libraries are installed:
+   ```bash
+   git clone https://github.com/vignesh1507/AI-Medical-Chatbot.git
+   ```
+3. Ensure all required libraries are installed:
     ```bash
     pip install -r requirements.txt
     ```
-3. Run the `AI Medical Chatbot` script:
+4. Run the `AI Medical Chatbot` script:
     ```bash
     python code.py
     ```
