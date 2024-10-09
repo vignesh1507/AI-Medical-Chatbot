@@ -97,7 +97,7 @@ print("SVM score: ", model.score(x_test, y_test))
 ### How It Works
 
 1. The chatbot asks for your symptoms.
-2. It predicts potential diseases using the Decision Tree or SVM models.
+2. It predicts potential diseases using the Decision Tree & SVM classifier.
 3. The chatbot cross-validates the predictions to ensure accuracy.
 4. It also suggests precautions based on the identified disease and speaks the output using text-to-speech.
 
