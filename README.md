@@ -89,7 +89,7 @@ print("SVM score: ", model.score(x_test, y_test))
     ```bash
     pip3 install -r requirements.txt
     ```
-4. Run the `AI Medical Chatbot` script:
+4. Run the `AI Medical Chatbot` script in the terminal:
     ```bash
     python code.py
     ```
