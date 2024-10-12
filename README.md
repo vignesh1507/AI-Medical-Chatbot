@@ -87,7 +87,7 @@ print("SVM score: ", model.score(x_test, y_test))
    ```
 3. Ensure all required libraries are installed:
     ```bash
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
     ```
 4. Run the `AI Medical Chatbot` script:
     ```bash
