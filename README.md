@@ -1,6 +1,6 @@
 # AI Medical Chatbot
 
-This project is an AI-based chatbot designed to help users predict potential diseases based on their input symptoms. The chatbot uses machine learning algorithms, including Decision Tree Classifier and Support Vector Machine Classifier, to predict diseases and advise whether a doctor consultation is necessary. Additionally, it gives precautionary advice based on the symptoms provided.
+This project is an AI-based chatbot designed to help users predict potential diseases based on their input symptoms. The chatbot uses machine learning algorithms, including Decision Tree Classifier and Support Vector Machine Classifier, to predict diseases and advise whether a doctor consultation is necessary. Additionally, it gives precautionary advice based on the symptoms provided. 
  
 ## Project Structure
 
