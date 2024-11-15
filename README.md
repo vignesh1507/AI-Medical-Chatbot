@@ -8,7 +8,7 @@ The chatbot relies on several CSV files for its data, including symptom descript
 
 1. Load and preprocess training and testing data.
 2. Use machine learning models to predict diseases.
-3. Provide text-to-speech feedback using the `pyttsx3` library.
+3. Provide text-to-speech feedback using the `pyttsx3` library. 
 4. Display disease descriptions and precautions based on the predicted outcome.
 
 ### Files in the Project
